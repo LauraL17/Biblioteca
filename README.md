@@ -1,17 +1,15 @@
-# Biblioteca
+Biblioteca
 
-Ana si sora ei Maria au mers la cumparaturi, fiecare notand pe o hartie ce a cumparat, fiecare in alta locatie. Insa au uitat acasa lista cu obiectele necesare. O suna pe mama lor si o roaga sa le ajute. Mama isi noteaza ce a cumparat fiecare si apoi compara cu notitele ei. Ajutati-o pe mama fetelor:
+Ion vrea sa isi faca ordine in biblioteca. Pentru fiecare carte, isi noteaza titlul, autorul, limba in care este scrisa cartea si numarul de pagini. Doreste sa doneze cartile care au numarul de pagini mai mare de 200, iar fratele lui il roaga sa-I lase lui cartile in limba franceza. Ajutati-l pe Ion sa imparta cartile. Scrieti un program care primeste ca si data de intrare cartile si detaliile acestora, si tipareste apoi urmatoarele informatii:
 
-- sa le spuna fetelor ce mai e de cumparat
-- sa le spuna ce au cumparat in plus fata de ce era nevoie
-- sa le spuna ce au cumparat in dublu exemplar
+- Cate carti se doneaza
+- Autorii cartilor care ajung la fratele lui Ion
+- Titlurile cartilor care raman la Ion
 
-Nota: obiectele cumparate de fete si lista originala a mamei se vor citi de la tastatura, separate prin virgula
+Nota: se vor citi carti sub forma titlu, autor, limba, nrpagini – datele vor fi separate prin virgula; citirea se termina cand se introduce un string vid!4
 
-# Tema
+Tema
 
-Extindeti aplicatia care o ajuta pe mama Anei si Maria astfel incat sa se tipareasca:
-- Ce a cumparat Ana din lista mamei, si ce a cumparat Ana in plus fata de lista mamei
-- Ce a cumparat Maria din lista mamei, si ce a cumparat Maria in plus fata de lista mamei
-
-
+- Extindeti aplicatia care il ajuta pe Ion sa isi faca ordine in biblioteca:
+- Scrieti o noua functie pe nume GetBookForDonations() care sa returneze lista cartilor care se vor dona
+- Modificati functia RemainingBooks() astfel incat sa obtinei lista de carti a lui Ion folosindu-va de functiile BooksForBrother() si de GetBookForDonations() 
